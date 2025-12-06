@@ -30,7 +30,7 @@ A modern, full-stack library management system built with React, Node.js, Expres
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React ** - Modern UI library
+- React- Modern UI library
 - **TypeScript** - Type-safe development
 - **Tailwind CSS v4** - Utility-first styling
 - **React Router** - Client-side routing
@@ -82,20 +82,16 @@ cp .env.example .env
 Create a PostgreSQL database and update your `.env` file:
 
 ```env
-# Database Configuration
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=library_management
-DB_USER=your_username
-DB_PASSWORD=your_password
-
-# JWT Configuration
-JWT_SECRET=your_super_secret_jwt_key
-JWT_REFRESH_SECRET=your_refresh_secret_key
-
-# Server Configuration
-PORT=5000
-NODE_ENV=development
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
+DB_HOST=
+DB_PORT=
+PORT=
+JWT_ACCESS_SECRET=
+JWT_REFRESH_SECRET=
+JWT_ACCESS_EXPIRY=
+JWT_REFRESH_EXPIRY=
 ```
 
 ### 4. Database Migration & Seeding
@@ -211,11 +207,11 @@ After seeding the database, you can use these credentials:
 
 **Admin Account:**
 - Email: `admin@library.com`
-- Password: `admin123`
+- Password: `password123`
 
 **Test Member Account:**
-- Email: `member@library.com`
-- Password: `member123`
+- Email: `test@gmail.com`
+- Password: `test123`
 
 ## 📚 API Endpoints
 
