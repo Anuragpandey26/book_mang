@@ -132,21 +132,6 @@ npm run dev
 ```
 Application will open on `http://localhost:5173`
 
-### Production Build
-
-**Backend**:
-```bash
-cd backend
-npm start
-```
-
-**Frontend**:
-```bash
-cd frontend
-npm run build
-npm run preview
-```
-
 ## 📁 Project Structure
 
 ```
